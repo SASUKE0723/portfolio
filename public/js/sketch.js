@@ -3,7 +3,7 @@ var sketch;
 // 全体の初期化（最初に一回だけ呼ばれる）
 function setup() {
     // キャンバスをつくる
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, max(windowHeight));
     
     // 背景をぬりつぶす
     background(0);

@@ -31,6 +31,7 @@
 }
 .main #top {
   width: 100%;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -293,9 +294,5 @@ footer{
     
     .contact-main a p{
         font-size: 5vw;
-    }
-    
-    canvas{
-        height: 100%;
     }
 }
