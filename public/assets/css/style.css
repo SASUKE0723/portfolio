@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    width: 100%;
+    height: 6vw;
+    top: 0;
+    z-index: 999;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 2vw;
+    margin: 0 1vw;
+    color: #8E05C2;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.main {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.main #top {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  vertical-align: top;
+}
+
+.main #profile {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  vertical-align: top;
+}
+
+.main #works {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  vertical-align: top;
+}
+
+.main #contact {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  vertical-align: top;
+}
+
+#top{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.title h1{
+    font-family: 'Zen Dots', cursive;
+    font-size: 5vw;
+    color: #8E05C2;
+}
+
+#profile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    font-size: 4vw;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+#profile img{
+    height: 60vh;
+    margin-right: 2vw;
+    border-radius: 50%;
+}
+
+#profile .about{
+    margin-left: 2vw;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+.about .name{
+    margin-bottom: 1vh;
+    font-size: 3vw;
+}
+
+.about p{
+    font-size: 2vw;
+}
+
+.about h2{
+    margin-top: 2vh;
+    font-size: 3vw;
+}
+
+#works{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.works-main img{
+    width: 30vw;
+}
+
+.location-share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-share h1{
+    font-size: 3vw;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+.location-share a{
+    text-decoration: none;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+.location-share p{
+    font-size: 2vw;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-main{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-main a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
+
+.contact-main a img{
+    width: 7vw;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+.contact-main a img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1vw;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #8E05C2;
+}
