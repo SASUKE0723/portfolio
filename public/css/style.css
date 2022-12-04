@@ -243,6 +243,10 @@ footer{
         flex-direction: column;
     }
     
+    #profile img{
+        height: 40vh;
+    }
+    
     .about{
         margin: 2vh;
         font-family: 'Yusei Magic', sans-serif;
@@ -290,5 +294,9 @@ footer{
     
     .contact-main a p{
         font-size: 5vw;
+    }
+    
+    canvas{
+        height: 100%;
     }
 }
