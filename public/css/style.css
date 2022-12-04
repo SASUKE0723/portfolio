@@ -117,7 +117,7 @@
 }
 
 #profile img{
-    height: 60vh;
+    height: 50vh;
     margin-right: 2vw;
     border-radius: 50%;
 }
@@ -223,4 +223,72 @@ footer{
     font-size: 1vw;
     font-family: 'Yusei Magic', sans-serif;
     color: #8E05C2;
+}
+
+@media all and (max-width:480px){
+    .menu a{
+        font-size: 4vw;
+    }
+    
+    .title h1{
+        font-size: 7vw;
+    }
+    
+    .subtitle{
+        font-size: 6vw;
+    }
+    
+    .profile-main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about{
+        margin: 2vh;
+        font-family: 'Yusei Magic', sans-serif;
+        color: #8E05C2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about .name{
+        font-size: 5vw;
+    }
+    
+    .about h2{
+        font-size: 4vw;
+    }
+    
+    .about p{
+        font-size: 3vw;
+    }
+    
+    .works-main img{
+        width: 40vw;
+    }
+    
+    .location-share h1{
+        font-size: 5vw;
+    }
+    
+    .location-share p{
+        font-size: 4vw;
+    }
+    
+    .contact-main{
+        flex-direction: column;
+    }
+    
+    .contact-main a{
+        margin-bottom: 3vh;
+    }
+    
+    .contact-main a img{
+        width: 15vw;
+    }
+    
+    .contact-main a p{
+        font-size: 5vw;
+    }
 }
