@@ -34,7 +34,7 @@
                 <div class="profile-main">
                     <img src="public/image/profile.png">
                     <div class="about">
-                        <h1 class="name">落合遼梧</h1>
+                        <h1>落合遼梧</h1>
                         <p>2002年3月4日生まれ</p>
                         <p>東京理科大学理学部応用数学科</p>
                         <p>Life is Tech!メンター</p>
@@ -50,10 +50,16 @@
             <div id="works">
                 <h1 class="subtitle">-Works-</h1>
                 <div class="works-main">
-                    <div class="location-share">
-                        <a href="https://location-share-production.up.railway.app/" target="_blank"><img src="public/image/location-share.png"></a>
-                        <h1><a href="https://location-share-production.up.railway.app/" target="_blank">Location Share</a></h1>
-                        <p>主な使用言語:Ruby</p>
+                    <div class="works-content">
+                        <a href="https://location-share-production.up.railway.app/" target="_blank">
+                            <span class="mask">
+                                <img src="public/image/location-share.png">
+                                <span class="cap">
+                                    <h1>Location Share</h1>
+                                    <p>主な使用言語:Ruby</p>
+                                </span>
+                            </span> 
+                        </a>
                     </div>
                 </div>
             </div>
@@ -87,6 +93,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+        <script src="public/js/jquery.lettering.js"></script>
         <script>
         VANTA.FOG({
             el: "#profile",
